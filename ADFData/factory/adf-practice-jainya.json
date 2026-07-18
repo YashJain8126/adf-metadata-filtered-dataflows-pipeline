@@ -1,0 +1,15 @@
+{
+	"name": "adf-practice-jainya",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "eff6a014-f9da-4d34-a5a7-815224c41b79",
+		"tenantId": "9991671c-05c8-409e-8d16-c9bbd64a93ec"
+	}
+}
