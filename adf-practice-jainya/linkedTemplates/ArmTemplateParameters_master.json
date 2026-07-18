@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-practice-jainya"
+		},
+		"ls_datalake_accountKey": {
+			"value": ""
+		},
+		"ls_datalake_properties_typeProperties_url": {
+			"value": "https://storageadfpracticeyash.dfs.core.windows.net/"
+		},
+		"ls_git_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com"
+		},
+		"mangTrigger_properties_typeProperties_scope": {
+			"value": "/subscriptions/3aa0dd33-55ce-4afb-88d6-2f92be481192/resourceGroups/RG-ADFPractice/providers/Microsoft.Storage/storageAccounts/storageadfpracticeyash"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
